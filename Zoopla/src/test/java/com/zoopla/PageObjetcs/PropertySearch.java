@@ -1,6 +1,7 @@
 package com.zoopla.PageObjetcs;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -29,6 +30,7 @@ public class PropertySearch {
 			System.out.println(options.size());
 			for(int i=0;i<options.size();i++)
 			{
+				ldriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 				options.get(i).click();
 				break;
 			}
