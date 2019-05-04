@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PropertySearch]">
+  <parameter name="browser" value="chrome"/>
+  <test name="PropertySearch test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.zoopla.testcases.TC_Search_Property_001">
+        <methods>
+          <include name="search"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.zoopla.testcases.TC_Search_Property_001 -->
+    </classes>
+  </test> <!-- PropertySearch test(failed) -->
+</suite> <!-- Failed suite [PropertySearch] -->

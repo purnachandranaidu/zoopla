@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PropertySearch">
+    <!-- <listeners>
+        <listener class-name="com.inetbanking.utilities.Reporting"></listener>   	
+    </listeners> -->
+    <test name="PropertySearch test">
+        <parameter name="browser" value="chrome"> </parameter>
+        <classes>
+      	<class name="com.zoopla.testcases.TC_Search_Property_001"></class>
+      	
+        </classes>
+    </test>
+</suite>
