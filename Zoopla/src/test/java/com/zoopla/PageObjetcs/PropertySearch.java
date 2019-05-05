@@ -62,7 +62,7 @@ public class PropertySearch {
 			System.out.println(options.get(i).getText());
 			options.get(i).click();
 			
-			
+			System.out.println("Hello");
 			
 		}
 		
